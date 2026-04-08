@@ -1,0 +1,407 @@
+=================================================================
+  HSW-SF Pretest Training Loop
+  Device : mps
+  Nodes  : 20  |  Episodes : 30  |  Steps/ep : 100
+=================================================================
+[Data] Loading EuroSAT dataset (this may take a moment if downloading...)
+  Ep   1 | Step    0 | G-Step      0 |  R=-0.709  V_top=0.0950  η=0.501  L_cut= 4  SplitFed  T_loss=2.291  S_loss=0.702  CritL=nan  ActL=nan
+  Ep   1 | Step   10 | G-Step     10 |  R=-0.492  V_top=0.6044  η=0.518  L_cut= 8  FALLBACK  T_loss=0.000  S_loss=2.300  CritL=nan  ActL=nan
+  Ep   1 | Step   20 | G-Step     20 |  R=-0.581  V_top=0.9403  η=0.509  L_cut=11  FALLBACK  T_loss=0.000  S_loss=2.307  CritL=nan  ActL=nan
+  Ep   1 | Step   30 | G-Step     30 |  R=+0.000  V_top=1.0075  η=69315.265  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.214  CritL=nan  ActL=nan
+  Ep   1 | Step   40 | G-Step     40 |  R=-0.794  V_top=1.0663  η=0.508  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.152  CritL=nan  ActL=nan
+  Ep   1 | Step   50 | G-Step     50 |  R=-0.872  V_top=1.1040  η=0.502  L_cut=12  FALLBACK  T_loss=0.000  S_loss=2.041  CritL=nan  ActL=nan
+  Ep   1 | Step   60 | G-Step     60 |  R=+0.000  V_top=1.1714  η=0.611  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.089  CritL=nan  ActL=nan
+  Ep   1 | Step   70 | G-Step     70 |  R=+0.000  V_top=1.2240  η=0.538  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.880  CritL=nan  ActL=nan
+  Ep   1 | Step   80 | G-Step     80 |  R=-0.416  V_top=1.2317  η=0.507  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.834  CritL=nan  ActL=nan
+  Ep   1 | Step   90 | G-Step     90 |  R=+0.000  V_top=1.2374  η=0.535  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.811  CritL=nan  ActL=nan
+
+>>> Episode   1 done  |  Return=-346625.86  Avg10=-346625.86  Time=3.0s  Buffer=1373  Alive_nodes=15/20
+
+  Ep   2 | Step    0 | G-Step    100 |  R=-0.665  V_top=0.0950  η=0.560  L_cut=10  SplitFed  T_loss=1.658  S_loss=1.179  CritL=nan  ActL=nan
+  Ep   2 | Step   10 | G-Step    110 |  R=+0.000  V_top=0.5136  η=0.561  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.111  CritL=nan  ActL=nan
+  Ep   2 | Step   20 | G-Step    120 |  R=+0.000  V_top=1.0199  η=0.650  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.116  CritL=nan  ActL=nan
+  Ep   2 | Step   30 | G-Step    130 |  R=-0.988  V_top=1.1849  η=0.510  L_cut=13  FALLBACK  T_loss=0.000  S_loss=2.170  CritL=nan  ActL=nan
+  Ep   2 | Step   40 | G-Step    140 |  R=+0.000  V_top=1.2062  η=0.526  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.005  CritL=nan  ActL=nan
+  Ep   2 | Step   50 | G-Step    150 |  R=-0.972  V_top=1.2210  η=0.516  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=2.410  CritL=nan  ActL=nan
+  Ep   2 | Step   60 | G-Step    160 |  R=-0.689  V_top=1.2274  η=69315.265  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=2.082  CritL=nan  ActL=nan
+  Ep   2 | Step   70 | G-Step    170 |  R=-1.039  V_top=1.3897  η=0.518  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.771  CritL=nan  ActL=nan
+  Ep   2 | Step   80 | G-Step    180 |  R=+0.000  V_top=1.3797  η=0.535  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.162  CritL=nan  ActL=nan
+  Ep   2 | Step   90 | G-Step    190 |  R=+0.000  V_top=1.3730  η=0.510  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.545  CritL=nan  ActL=nan
+
+>>> Episode   2 done  |  Return=-104024.11  Avg10=-225324.98  Time=1.4s  Buffer=2741  Alive_nodes=16/20
+
+  Ep   3 | Step    0 | G-Step    200 |  R=-0.587  V_top=0.0950  η=0.501  L_cut= 1  SplitFed  T_loss=2.456  S_loss=0.942  CritL=nan  ActL=nan
+  Ep   3 | Step   10 | G-Step    210 |  R=-0.841  V_top=0.6670  η=0.591  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=2.150  CritL=nan  ActL=nan
+  Ep   3 | Step   20 | G-Step    220 |  R=-0.693  V_top=0.8955  η=69315.265  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=1.635  CritL=nan  ActL=nan
+  Ep   3 | Step   30 | G-Step    230 |  R=+0.000  V_top=1.0224  η=0.508  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.783  CritL=nan  ActL=nan
+  Ep   3 | Step   40 | G-Step    240 |  R=-0.573  V_top=1.0732  η=0.654  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.196  CritL=nan  ActL=nan
+  Ep   3 | Step   50 | G-Step    250 |  R=-34658.380  V_top=1.1116  η=0.515  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=2.067  CritL=nan  ActL=nan
+  Ep   3 | Step   60 | G-Step    260 |  R=-1.108  V_top=1.1346  η=0.544  L_cut=11  FALLBACK  T_loss=0.000  S_loss=1.778  CritL=nan  ActL=nan
+  Ep   3 | Step   70 | G-Step    270 |  R=+0.000  V_top=1.1544  η=69315.265  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.406  CritL=nan  ActL=nan
+  Ep   3 | Step   80 | G-Step    280 |  R=-0.715  V_top=1.1694  η=0.537  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.741  CritL=nan  ActL=nan
+  Ep   3 | Step   90 | G-Step    290 |  R=+0.000  V_top=1.1839  η=0.572  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.573  CritL=nan  ActL=nan
+
+>>> Episode   3 done  |  Return=-277310.23  Avg10=-242653.40  Time=1.4s  Buffer=4103  Alive_nodes=10/20
+
+  Ep   4 | Step    0 | G-Step    300 |  R=-0.730  V_top=0.0950  η=69315.265  L_cut=11  SplitFed  T_loss=1.789  S_loss=0.781  CritL=nan  ActL=nan
+  Ep   4 | Step   10 | G-Step    310 |  R=-0.867  V_top=0.7478  η=0.537  L_cut=12  FALLBACK  T_loss=0.000  S_loss=1.875  CritL=nan  ActL=nan
+  Ep   4 | Step   20 | G-Step    320 |  R=-1.254  V_top=0.8610  η=0.670  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.670  CritL=nan  ActL=nan
+  Ep   4 | Step   30 | G-Step    330 |  R=-0.838  V_top=1.0856  η=0.527  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=2.099  CritL=nan  ActL=nan
+  Ep   4 | Step   40 | G-Step    340 |  R=-0.694  V_top=1.1401  η=0.546  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=1.856  CritL=nan  ActL=nan
+  Ep   4 | Step   50 | G-Step    350 |  R=-0.968  V_top=1.1703  η=0.658  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=1.688  CritL=nan  ActL=nan
+  Ep   4 | Step   60 | G-Step    360 |  R=+0.000  V_top=1.1832  η=0.573  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.238  CritL=nan  ActL=nan
+  Ep   4 | Step   70 | G-Step    370 |  R=-0.559  V_top=1.2377  η=0.617  L_cut=11  FALLBACK  T_loss=0.000  S_loss=1.374  CritL=nan  ActL=nan
+  Ep   4 | Step   80 | G-Step    380 |  R=+0.000  V_top=1.2797  η=0.539  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.670  CritL=nan  ActL=nan
+  Ep   4 | Step   90 | G-Step    390 |  R=-1.249  V_top=1.2793  η=0.573  L_cut=11  FALLBACK  T_loss=0.000  S_loss=1.591  CritL=nan  ActL=nan
+
+>>> Episode   4 done  |  Return=-277310.14  Avg10=-251317.58  Time=1.4s  Buffer=5450  Alive_nodes=14/20
+
+  Ep   5 | Step    0 | G-Step    400 |  R=-0.675  V_top=0.0950  η=69315.265  L_cut=11  SplitFed  T_loss=2.292  S_loss=1.711  CritL=nan  ActL=nan
+  Ep   5 | Step   10 | G-Step    410 |  R=+0.000  V_top=0.5994  η=0.519  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.675  CritL=nan  ActL=nan
+  Ep   5 | Step   20 | G-Step    420 |  R=-0.610  V_top=0.8701  η=0.504  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=1.362  CritL=nan  ActL=nan
+  Ep   5 | Step   30 | G-Step    430 |  R=-0.651  V_top=1.0114  η=0.581  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.787  CritL=nan  ActL=nan
+  Ep   5 | Step   40 | G-Step    440 |  R=-0.814  V_top=1.0732  η=0.504  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=1.181  CritL=nan  ActL=nan
+  Ep   5 | Step   50 | G-Step    450 |  R=+0.000  V_top=1.1159  η=0.580  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.905  CritL=nan  ActL=nan
+  Ep   5 | Step   60 | G-Step    460 |  R=-1.167  V_top=1.1873  η=0.558  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=1.362  CritL=nan  ActL=nan
+  Ep   5 | Step   70 | G-Step    470 |  R=-0.496  V_top=1.2032  η=0.558  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.795  CritL=nan  ActL=nan
+  Ep   5 | Step   80 | G-Step    480 |  R=+0.000  V_top=1.2123  η=0.509  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.307  CritL=nan  ActL=nan
+  Ep   5 | Step   90 | G-Step    490 |  R=+0.000  V_top=1.2123  η=0.544  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.271  CritL=nan  ActL=nan
+
+>>> Episode   5 done  |  Return=-207994.72  Avg10=-242653.01  Time=1.4s  Buffer=6806  Alive_nodes=17/20
+
+[Agent] Checkpoint saved → sac_clf_ep005.pt
+  Ep   6 | Step    0 | G-Step    500 |  R=-0.619  V_top=0.0950  η=69315.265  L_cut=10  SplitFed  T_loss=2.405  S_loss=0.966  CritL=nan  ActL=nan
+  Ep   6 | Step   10 | G-Step    510 |  R=+0.000  V_top=0.5199  η=0.531  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.949  CritL=nan  ActL=nan
+  Ep   6 | Step   20 | G-Step    520 |  R=+0.000  V_top=1.0891  η=0.518  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.767  CritL=212672538.6667  ActL=-2.5814
+  Ep   6 | Step   30 | G-Step    530 |  R=-0.855  V_top=1.1426  η=0.514  L_cut=13  FALLBACK  T_loss=0.000  S_loss=1.067  CritL=209371757.0526  ActL=-2.1350
+  Ep   6 | Step   40 | G-Step    540 |  R=+0.000  V_top=1.2484  η=0.611  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.403  CritL=221929584.2759  ActL=-1.6259
+  Ep   6 | Step   50 | G-Step    550 |  R=-0.685  V_top=1.2538  η=0.680  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=1.931  CritL=232373336.8205  ActL=-1.0155
+  Ep   6 | Step   60 | G-Step    560 |  R=+0.000  V_top=1.2570  η=0.678  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.122  CritL=223618721.0612  ActL=-0.4100
+  Ep   6 | Step   70 | G-Step    570 |  R=+0.000  V_top=1.3401  η=0.634  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.067  CritL=228320685.8983  ActL=0.2581
+  Ep   6 | Step   80 | G-Step    580 |  R=-34658.170  V_top=1.3343  η=0.622  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.988  CritL=227580713.5652  ActL=0.9646
+  Ep   6 | Step   90 | G-Step    590 |  R=-0.592  V_top=1.3286  η=0.507  L_cut=13  FALLBACK  T_loss=0.000  S_loss=2.011  CritL=227501945.9747  ActL=1.7043
+
+>>> Episode   6 done  |  Return=-311964.50  Avg10=-254204.92  Time=15.4s  Buffer=8186  Alive_nodes=12/20
+
+  Ep   7 | Step    0 | G-Step    600 |  R=-0.626  V_top=0.0950  η=0.501  L_cut= 9  SplitFed  T_loss=2.035  S_loss=2.962  CritL=281314048.0000  ActL=10.6986
+  Ep   7 | Step   10 | G-Step    610 |  R=-0.537  V_top=0.5732  η=0.526  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=1.705  CritL=238670954.1818  ActL=11.1453
+  Ep   7 | Step   20 | G-Step    620 |  R=+0.000  V_top=0.9454  η=0.526  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.232  CritL=226807594.6667  ActL=12.4324
+  Ep   7 | Step   30 | G-Step    630 |  R=-1.258  V_top=1.0317  η=0.549  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=1.431  CritL=209886609.5484  ActL=13.6818
+  Ep   7 | Step   40 | G-Step    640 |  R=+0.000  V_top=1.1513  η=0.505  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.655  CritL=207159126.8293  ActL=14.8590
+  Ep   7 | Step   50 | G-Step    650 |  R=+0.000  V_top=1.2864  η=0.571  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.004  CritL=207334941.4902  ActL=16.2109
+  Ep   7 | Step   60 | G-Step    660 |  R=-0.585  V_top=1.2852  η=0.553  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=1.493  CritL=212666022.2951  ActL=17.8580
+  Ep   7 | Step   70 | G-Step    670 |  R=-0.376  V_top=1.3219  η=0.505  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=0.963  CritL=210686698.3662  ActL=19.5069
+  Ep   7 | Step   80 | G-Step    680 |  R=+0.000  V_top=1.3152  η=0.503  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.027  CritL=213587208.0988  ActL=21.3532
+  Ep   7 | Step   90 | G-Step    690 |  R=-0.607  V_top=1.3117  η=0.515  L_cut=12  FALLBACK  T_loss=0.000  S_loss=2.040  CritL=213372012.1319  ActL=23.2231
+
+>>> Episode   7 done  |  Return=-173335.18  Avg10=-242652.10  Time=17.5s  Buffer=9634  Alive_nodes=15/20
+
+  Ep   8 | Step    0 | G-Step    700 |  R=-0.587  V_top=0.0950  η=69315.265  L_cut= 5  SplitFed  T_loss=1.548  S_loss=1.423  CritL=243372784.0000  ActL=44.8841
+  Ep   8 | Step   10 | G-Step    710 |  R=-0.727  V_top=1.2262  η=0.669  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=2.454  CritL=229732369.4545  ActL=48.0788
+  Ep   8 | Step   20 | G-Step    720 |  R=-34658.148  V_top=1.2484  η=0.501  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=1.893  CritL=219260334.4762  ActL=50.4060
+  Ep   8 | Step   30 | G-Step    730 |  R=-0.430  V_top=1.2570  η=0.676  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=2.155  CritL=223363496.2581  ActL=53.5157
+  Ep   8 | Step   40 | G-Step    740 |  R=-0.658  V_top=1.3179  η=0.524  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.977  CritL=218162289.1707  ActL=56.7637
+  Ep   8 | Step   50 | G-Step    750 |  R=+0.000  V_top=1.3119  η=0.506  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.195  CritL=223046663.5294  ActL=60.1722
+  Ep   8 | Step   60 | G-Step    760 |  R=-34657.696  V_top=1.3435  η=69315.265  L_cut=13  FALLBACK  T_loss=0.000  S_loss=1.355  CritL=228475913.7049  ActL=63.5031
+  Ep   8 | Step   70 | G-Step    770 |  R=-0.480  V_top=1.3327  η=0.502  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=1.625  CritL=233680996.7324  ActL=67.0259
+  Ep   8 | Step   80 | G-Step    780 |  R=-0.614  V_top=1.3255  η=0.505  L_cut= 8  FALLBACK  T_loss=0.000  S_loss=2.224  CritL=236884861.2346  ActL=71.0109
+  Ep   8 | Step   90 | G-Step    790 |  R=-0.365  V_top=1.3441  η=0.519  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.923  CritL=240408043.0769  ActL=74.8981
+
+>>> Episode   8 done  |  Return=-311957.82  Avg10=-251315.32  Time=20.8s  Buffer=11390  Alive_nodes=19/20
+
+  Ep   9 | Step    0 | G-Step    800 |  R=-0.349  V_top=0.0950  η=0.501  L_cut= 1  SplitFed  T_loss=1.553  S_loss=1.133  CritL=205380768.0000  ActL=107.4875
+  Ep   9 | Step   10 | G-Step    810 |  R=-0.346  V_top=0.8928  η=0.507  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=1.561  CritL=218876773.0909  ActL=118.1837
+  Ep   9 | Step   20 | G-Step    820 |  R=+0.000  V_top=1.2850  η=0.604  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.322  CritL=226566580.9524  ActL=123.9260
+  Ep   9 | Step   30 | G-Step    830 |  R=-0.303  V_top=1.2820  η=0.503  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.424  CritL=215421040.7742  ActL=129.7575
+  Ep   9 | Step   40 | G-Step    840 |  R=-0.410  V_top=1.3318  η=0.503  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.035  CritL=213349442.5366  ActL=134.5497
+  Ep   9 | Step   50 | G-Step    850 |  R=-0.410  V_top=1.3204  η=0.589  L_cut=12  FALLBACK  T_loss=0.000  S_loss=1.368  CritL=216798578.6667  ActL=139.0056
+  Ep   9 | Step   60 | G-Step    860 |  R=-34657.938  V_top=1.3130  η=0.582  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=0.611  CritL=221866747.4098  ActL=144.4071
+  Ep   9 | Step   70 | G-Step    870 |  R=-0.383  V_top=1.3076  η=0.547  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=0.682  CritL=223902069.2958  ActL=150.1880
+  Ep   9 | Step   80 | G-Step    880 |  R=-0.594  V_top=1.3543  η=0.527  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.014  CritL=225415459.2593  ActL=156.4110
+  Ep   9 | Step   90 | G-Step    890 |  R=-34657.733  V_top=1.3905  η=0.507  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=1.833  CritL=226786365.8022  ActL=162.3365
+
+>>> Episode   9 done  |  Return=-346611.24  Avg10=-261903.75  Time=22.8s  Buffer=13356  Alive_nodes=20/20
+
+  Ep  10 | Step    0 | G-Step    900 |  R=-0.271  V_top=0.0950  η=69315.265  L_cut=10  SplitFed  T_loss=1.834  S_loss=2.149  CritL=315875776.0000  ActL=231.3197
+  Ep  10 | Step   10 | G-Step    910 |  R=-0.272  V_top=1.0085  η=0.526  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=1.493  CritL=249743920.0000  ActL=237.8287
+  Ep  10 | Step   20 | G-Step    920 |  R=-0.315  V_top=1.3265  η=0.536  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=1.496  CritL=242207135.2381  ActL=244.9592
+  Ep  10 | Step   30 | G-Step    930 |  R=-0.621  V_top=1.3103  η=0.514  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.015  CritL=246085034.0645  ActL=252.2644
+  Ep  10 | Step   40 | G-Step    940 |  R=-0.327  V_top=1.3995  η=0.524  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=0.931  CritL=231744662.8293  ActL=260.6286
+  Ep  10 | Step   50 | G-Step    950 |  R=-0.323  V_top=1.4146  η=0.579  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.449  CritL=232056280.7843  ActL=269.9028
+  Ep  10 | Step   60 | G-Step    960 |  R=-0.299  V_top=1.3919  η=0.501  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=2.507  CritL=231962633.9672  ActL=279.2117
+  Ep  10 | Step   70 | G-Step    970 |  R=-0.326  V_top=1.4319  η=0.533  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.082  CritL=234733903.7746  ActL=288.3974
+  Ep  10 | Step   80 | G-Step    980 |  R=-0.260  V_top=1.4374  η=0.599  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=1.358  CritL=233152802.1728  ActL=297.1275
+  Ep  10 | Step   90 | G-Step    990 |  R=-0.566  V_top=1.4417  η=0.569  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.762  CritL=233731184.3516  ActL=305.9434
+
+>>> Episode  10 done  |  Return=-138663.96  Avg10=-249579.77  Time=22.7s  Buffer=15356  Alive_nodes=20/20
+
+[Agent] Checkpoint saved → sac_clf_ep010.pt
+  Ep  11 | Step    0 | G-Step   1000 |  R=-0.267  V_top=0.0950  η=69315.265  L_cut= 4  SplitFed  T_loss=2.010  S_loss=2.194  CritL=203872592.0000  ActL=426.8752
+  Ep  11 | Step   10 | G-Step   1010 |  R=-0.261  V_top=1.0085  η=0.526  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=0.539  CritL=219884053.8182  ActL=421.7260
+  Ep  11 | Step   20 | G-Step   1020 |  R=-0.313  V_top=1.3265  η=0.536  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=1.715  CritL=225942507.0476  ActL=429.1658
+  Ep  11 | Step   30 | G-Step   1030 |  R=-34657.635  V_top=1.3103  η=0.514  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.704  CritL=225615447.4839  ActL=437.5881
+  Ep  11 | Step   40 | G-Step   1040 |  R=-0.281  V_top=1.3995  η=0.524  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=1.157  CritL=223249118.2439  ActL=445.9222
+  Ep  11 | Step   50 | G-Step   1050 |  R=-0.602  V_top=1.4146  η=0.579  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=0.653  CritL=229245929.5686  ActL=455.3221
+  Ep  11 | Step   60 | G-Step   1060 |  R=-0.289  V_top=1.3919  η=0.501  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=2.114  CritL=228149843.5410  ActL=465.7019
+  Ep  11 | Step   70 | G-Step   1070 |  R=-0.288  V_top=1.4319  η=0.533  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.486  CritL=232274548.3944  ActL=475.6113
+  Ep  11 | Step   80 | G-Step   1080 |  R=-0.284  V_top=1.4374  η=0.505  L_cut=11  FALLBACK  T_loss=0.000  S_loss=1.083  CritL=228746905.9753  ActL=485.8235
+  Ep  11 | Step   90 | G-Step   1090 |  R=-0.564  V_top=1.4417  η=0.569  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=1.152  CritL=228834954.8132  ActL=497.2649
+
+>>> Episode  11 done  |  Return=-173319.42  Avg10=-232249.13  Time=23.0s  Buffer=17356  Alive_nodes=20/20
+
+  Ep  12 | Step    0 | G-Step   1100 |  R=-0.270  V_top=0.0950  η=69315.265  L_cut= 1  SplitFed  T_loss=1.906  S_loss=2.247  CritL=237174080.0000  ActL=590.2807
+  Ep  12 | Step   10 | G-Step   1110 |  R=-0.254  V_top=1.0085  η=0.526  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=1.515  CritL=200194722.9091  ActL=634.9012
+  Ep  12 | Step   20 | G-Step   1120 |  R=-0.310  V_top=1.3265  η=0.536  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=1.152  CritL=231297046.8571  ActL=649.8477
+  Ep  12 | Step   30 | G-Step   1130 |  R=-34657.651  V_top=1.3103  η=0.514  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=0.636  CritL=232294078.4516  ActL=663.9269
+  Ep  12 | Step   40 | G-Step   1140 |  R=-0.277  V_top=1.3995  η=0.524  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=1.480  CritL=224360416.0000  ActL=675.6137
+  Ep  12 | Step   50 | G-Step   1150 |  R=-0.283  V_top=1.4146  η=0.579  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=1.431  CritL=221294376.7843  ActL=689.6256
+  Ep  12 | Step   60 | G-Step   1160 |  R=-0.310  V_top=1.3919  η=0.501  L_cut= 8  FALLBACK  T_loss=0.000  S_loss=1.646  CritL=224801874.3607  ActL=703.4263
+  Ep  12 | Step   70 | G-Step   1170 |  R=-0.284  V_top=1.4319  η=0.533  L_cut= 8  FALLBACK  T_loss=0.000  S_loss=1.253  CritL=225803816.6761  ActL=717.1387
+  Ep  12 | Step   80 | G-Step   1180 |  R=-0.259  V_top=1.4374  η=0.505  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.738  CritL=227907453.7284  ActL=732.0094
+  Ep  12 | Step   90 | G-Step   1190 |  R=-0.274  V_top=1.4417  η=0.569  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.373  CritL=226551156.1319  ActL=748.5940
+
+>>> Episode  12 done  |  Return=-242632.49  Avg10=-246109.97  Time=22.5s  Buffer=19356  Alive_nodes=20/20
+
+  Ep  13 | Step    0 | G-Step   1200 |  R=-0.256  V_top=0.0950  η=69315.265  L_cut= 1  SplitFed  T_loss=2.787  S_loss=1.938  CritL=273169792.0000  ActL=892.1387
+  Ep  13 | Step   10 | G-Step   1210 |  R=-0.261  V_top=1.0085  η=0.526  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=1.011  CritL=262051360.0000  ActL=934.1788
+  Ep  13 | Step   20 | G-Step   1220 |  R=-0.320  V_top=1.3265  η=0.536  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=0.815  CritL=263220917.3333  ActL=953.2411
+  Ep  13 | Step   30 | G-Step   1230 |  R=-34657.634  V_top=1.3103  η=0.514  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=0.952  CritL=246334453.6774  ActL=981.4874
+  Ep  13 | Step   40 | G-Step   1240 |  R=-0.277  V_top=1.3995  η=0.524  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=1.964  CritL=250154400.7805  ActL=1002.0258
+  Ep  13 | Step   50 | G-Step   1250 |  R=-0.308  V_top=1.4146  η=0.579  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=0.547  CritL=250178374.2745  ActL=1018.8962
+  Ep  13 | Step   60 | G-Step   1260 |  R=-0.281  V_top=1.3919  η=0.501  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=0.915  CritL=239270364.0656  ActL=1034.3156
+  Ep  13 | Step   70 | G-Step   1270 |  R=-0.284  V_top=1.4319  η=0.533  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.479  CritL=242490648.3380  ActL=1053.7533
+  Ep  13 | Step   80 | G-Step   1280 |  R=-0.259  V_top=1.4374  η=0.505  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.418  CritL=239400825.6790  ActL=1070.6679
+  Ep  13 | Step   90 | G-Step   1290 |  R=-0.262  V_top=1.4417  η=0.569  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=1.124  CritL=238165185.7582  ActL=1087.4444
+
+>>> Episode  13 done  |  Return=-242631.84  Avg10=-242642.13  Time=22.8s  Buffer=21356  Alive_nodes=20/20
+
+  Ep  14 | Step    0 | G-Step   1300 |  R=-0.258  V_top=0.0950  η=69315.265  L_cut= 7  SplitFed  T_loss=1.867  S_loss=1.236  CritL=215726432.0000  ActL=1295.9254
+  Ep  14 | Step   10 | G-Step   1310 |  R=-0.254  V_top=1.0085  η=0.526  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.555  CritL=225181105.4545  ActL=1310.5502
+  Ep  14 | Step   20 | G-Step   1320 |  R=-0.307  V_top=1.3265  η=0.536  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=1.287  CritL=229082739.8095  ActL=1334.3722
+  Ep  14 | Step   30 | G-Step   1330 |  R=-34657.646  V_top=1.3103  η=0.514  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=1.028  CritL=238235049.2903  ActL=1357.9212
+  Ep  14 | Step   40 | G-Step   1340 |  R=-0.282  V_top=1.3995  η=0.524  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.239  CritL=233282169.7561  ActL=1378.5988
+  Ep  14 | Step   50 | G-Step   1350 |  R=-0.279  V_top=1.4146  η=0.579  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.093  CritL=226813504.4706  ActL=1398.3836
+  Ep  14 | Step   60 | G-Step   1360 |  R=-0.288  V_top=1.3919  η=0.501  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=1.516  CritL=224592579.5410  ActL=1424.0562
+  Ep  14 | Step   70 | G-Step   1370 |  R=-0.290  V_top=1.4319  η=0.533  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.670  CritL=224408225.0141  ActL=1445.7519
+  Ep  14 | Step   80 | G-Step   1380 |  R=-0.259  V_top=1.4374  η=0.505  L_cut=11  FALLBACK  T_loss=0.000  S_loss=1.610  CritL=222989101.5309  ActL=1468.2844
+  Ep  14 | Step   90 | G-Step   1390 |  R=-0.263  V_top=1.4417  η=0.569  L_cut= 8  FALLBACK  T_loss=0.000  S_loss=0.906  CritL=225319604.4835  ActL=1493.2643
+
+>>> Episode  14 done  |  Return=-173317.21  Avg10=-232242.84  Time=22.5s  Buffer=23356  Alive_nodes=20/20
+
+  Ep  15 | Step    0 | G-Step   1400 |  R=-0.256  V_top=0.0950  η=69315.265  L_cut= 7  SplitFed  T_loss=2.188  S_loss=4.668  CritL=378003200.0000  ActL=1800.4490
+  Ep  15 | Step   10 | G-Step   1410 |  R=-0.253  V_top=1.0085  η=0.526  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.062  CritL=237318051.6364  ActL=1835.1664
+  Ep  15 | Step   20 | G-Step   1420 |  R=-0.305  V_top=1.3265  η=0.536  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.664  CritL=221719175.6190  ActL=1849.2372
+  Ep  15 | Step   30 | G-Step   1430 |  R=-34657.636  V_top=1.3103  η=0.514  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.140  CritL=233821802.3226  ActL=1888.8269
+  Ep  15 | Step   40 | G-Step   1440 |  R=-0.274  V_top=1.3995  η=0.524  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=1.558  CritL=235118317.2683  ActL=1908.3117
+  Ep  15 | Step   50 | G-Step   1450 |  R=-0.278  V_top=1.4146  η=0.579  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=0.846  CritL=230303374.7451  ActL=1929.1854
+  Ep  15 | Step   60 | G-Step   1460 |  R=-0.281  V_top=1.3919  η=0.501  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.054  CritL=229666300.0656  ActL=1947.8639
+  Ep  15 | Step   70 | G-Step   1470 |  R=-0.283  V_top=1.4319  η=0.533  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.159  CritL=227851225.4648  ActL=1976.0471
+  Ep  15 | Step   80 | G-Step   1480 |  R=-0.258  V_top=1.4374  η=0.505  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.787  CritL=228167664.7901  ActL=2000.7506
+  Ep  15 | Step   90 | G-Step   1490 |  R=-0.263  V_top=1.4417  η=0.569  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=0.464  CritL=225072674.0220  ActL=2027.3629
+
+>>> Episode  15 done  |  Return=-242632.47  Avg10=-235706.61  Time=22.6s  Buffer=25356  Alive_nodes=20/20
+
+[Agent] Checkpoint saved → sac_clf_ep015.pt
+  Ep  16 | Step    0 | G-Step   1500 |  R=-0.551  V_top=0.0950  η=69315.265  L_cut= 4  SplitFed  T_loss=2.041  S_loss=2.647  CritL=227205424.0000  ActL=2312.4717
+  Ep  16 | Step   10 | G-Step   1510 |  R=-0.253  V_top=1.0085  η=0.526  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.428  CritL=219015208.0000  ActL=2402.5033
+  Ep  16 | Step   20 | G-Step   1520 |  R=-0.305  V_top=1.3265  η=0.536  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=1.122  CritL=214996421.7143  ActL=2431.8997
+  Ep  16 | Step   30 | G-Step   1530 |  R=-34657.636  V_top=1.3103  η=0.514  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=2.028  CritL=223803652.9032  ActL=2458.3033
+  Ep  16 | Step   40 | G-Step   1540 |  R=-0.283  V_top=1.3995  η=0.524  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.202  CritL=226922927.0244  ActL=2489.8245
+  Ep  16 | Step   50 | G-Step   1550 |  R=-0.282  V_top=1.4146  η=0.579  L_cut=13  FALLBACK  T_loss=0.000  S_loss=1.329  CritL=226457041.4118  ActL=2531.7437
+  Ep  16 | Step   60 | G-Step   1560 |  R=-0.281  V_top=1.3919  η=0.501  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.356  CritL=222191585.1803  ActL=2562.1791
+  Ep  16 | Step   70 | G-Step   1570 |  R=-0.284  V_top=1.4319  η=0.533  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.292  CritL=219899530.7042  ActL=2595.8819
+  Ep  16 | Step   80 | G-Step   1580 |  R=-0.258  V_top=1.4374  η=0.599  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.258  CritL=223241472.8889  ActL=2628.1207
+  Ep  16 | Step   90 | G-Step   1590 |  R=-0.262  V_top=1.4417  η=0.569  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=0.810  CritL=224249796.8352  ActL=2660.4074
+
+>>> Episode  16 done  |  Return=-242632.79  Avg10=-228773.44  Time=23.1s  Buffer=27356  Alive_nodes=20/20
+
+  Ep  17 | Step    0 | G-Step   1600 |  R=-0.258  V_top=0.0950  η=0.501  L_cut= 2  SplitFed  T_loss=1.755  S_loss=1.890  CritL=232932864.0000  ActL=2990.5813
+  Ep  17 | Step   10 | G-Step   1610 |  R=-0.253  V_top=1.0085  η=0.526  L_cut= 8  FALLBACK  T_loss=0.000  S_loss=1.413  CritL=207596864.0000  ActL=2999.0560
+  Ep  17 | Step   20 | G-Step   1620 |  R=-0.307  V_top=1.3265  η=0.536  L_cut= 8  FALLBACK  T_loss=0.000  S_loss=1.940  CritL=215074835.0476  ActL=3048.7177
+  Ep  17 | Step   30 | G-Step   1630 |  R=-34657.633  V_top=1.3103  η=0.514  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.425  CritL=224754678.1935  ActL=3078.4303
+  Ep  17 | Step   40 | G-Step   1640 |  R=-0.275  V_top=1.3995  η=0.524  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=0.996  CritL=227255274.9268  ActL=3107.3944
+  Ep  17 | Step   50 | G-Step   1650 |  R=-0.280  V_top=1.4146  η=0.579  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=0.769  CritL=223862288.6275  ActL=3136.4638
+  Ep  17 | Step   60 | G-Step   1660 |  R=-0.284  V_top=1.3919  η=0.501  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.785  CritL=226149483.0164  ActL=3173.1526
+  Ep  17 | Step   70 | G-Step   1670 |  R=-0.285  V_top=1.4319  η=0.533  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=0.733  CritL=221273672.7887  ActL=3214.5059
+  Ep  17 | Step   80 | G-Step   1680 |  R=-0.257  V_top=1.4374  η=0.599  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.308  CritL=221766947.9506  ActL=3250.0779
+  Ep  17 | Step   90 | G-Step   1690 |  R=-0.263  V_top=1.4417  η=0.569  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=0.772  CritL=223767963.4286  ActL=3287.7644
+
+>>> Episode  17 done  |  Return=-242630.57  Avg10=-235702.98  Time=22.7s  Buffer=29356  Alive_nodes=20/20
+
+  Ep  18 | Step    0 | G-Step   1700 |  R=-0.255  V_top=0.0950  η=69315.265  L_cut= 8  SplitFed  T_loss=2.376  S_loss=3.272  CritL=250305152.0000  ActL=3826.2471
+  Ep  18 | Step   10 | G-Step   1710 |  R=-0.261  V_top=1.0085  η=0.526  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.553  CritL=239313694.5455  ActL=3778.5109
+  Ep  18 | Step   20 | G-Step   1720 |  R=-0.305  V_top=1.3265  η=0.536  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=0.586  CritL=225261462.8571  ActL=3788.0893
+  Ep  18 | Step   30 | G-Step   1730 |  R=-34657.633  V_top=1.3103  η=0.514  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=0.634  CritL=232792467.0968  ActL=3848.0573
+  Ep  18 | Step   40 | G-Step   1740 |  R=-0.277  V_top=1.3995  η=0.524  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.016  CritL=228073496.9756  ActL=3903.9560
+  Ep  18 | Step   50 | G-Step   1750 |  R=-0.281  V_top=1.4146  η=0.579  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=2.672  CritL=229315514.0392  ActL=3937.6011
+  Ep  18 | Step   60 | G-Step   1760 |  R=-0.281  V_top=1.3919  η=0.501  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.081  CritL=226803939.4098  ActL=3974.3413
+  Ep  18 | Step   70 | G-Step   1770 |  R=-0.282  V_top=1.4319  η=0.533  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=1.652  CritL=229070038.0845  ActL=4002.4802
+  Ep  18 | Step   80 | G-Step   1780 |  R=-0.257  V_top=1.4374  η=0.505  L_cut=13  FALLBACK  T_loss=0.000  S_loss=0.980  CritL=228017112.1975  ActL=4037.7322
+  Ep  18 | Step   90 | G-Step   1790 |  R=-0.262  V_top=1.4417  η=0.569  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=0.873  CritL=230088433.1429  ActL=4075.3729
+
+>>> Episode  18 done  |  Return=-207973.61  Avg10=-225304.56  Time=22.8s  Buffer=31356  Alive_nodes=20/20
+
+  Ep  19 | Step    0 | G-Step   1800 |  R=-0.255  V_top=0.0950  η=69315.265  L_cut= 8  SplitFed  T_loss=2.519  S_loss=1.295  CritL=255266512.0000  ActL=4697.7578
+  Ep  19 | Step   10 | G-Step   1810 |  R=-0.255  V_top=1.0085  η=0.526  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=0.736  CritL=220813610.9091  ActL=4554.4650
+  Ep  19 | Step   20 | G-Step   1820 |  R=-0.312  V_top=1.3265  η=0.536  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=0.563  CritL=217478152.0000  ActL=4575.5902
+  Ep  19 | Step   30 | G-Step   1830 |  R=-34657.634  V_top=1.3103  η=0.514  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.113  CritL=219153005.9355  ActL=4602.0861
+  Ep  19 | Step   40 | G-Step   1840 |  R=-0.273  V_top=1.3995  η=0.524  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=0.973  CritL=216230451.7073  ActL=4631.4686
+  Ep  19 | Step   50 | G-Step   1850 |  R=-0.300  V_top=1.4146  η=0.579  L_cut=10  FALLBACK  T_loss=0.000  S_loss=0.556  CritL=210274344.3137  ActL=4645.8993
+  Ep  19 | Step   60 | G-Step   1860 |  R=-0.281  V_top=1.3919  η=0.501  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.423  CritL=211841338.8852  ActL=4675.2529
+  Ep  19 | Step   70 | G-Step   1870 |  R=-0.282  V_top=1.4319  η=0.533  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=1.590  CritL=211973907.3803  ActL=4699.3296
+  Ep  19 | Step   80 | G-Step   1880 |  R=-0.258  V_top=1.4374  η=0.505  L_cut=11  FALLBACK  T_loss=0.000  S_loss=1.664  CritL=213967989.5309  ActL=4723.8160
+  Ep  19 | Step   90 | G-Step   1890 |  R=-0.562  V_top=1.4417  η=0.569  L_cut=13  FALLBACK  T_loss=0.000  S_loss=0.732  CritL=215223881.1429  ActL=4756.7721
+
+>>> Episode  19 done  |  Return=-277289.40  Avg10=-218372.38  Time=22.6s  Buffer=33356  Alive_nodes=20/20
+
+  Ep  20 | Step    0 | G-Step   1900 |  R=-0.550  V_top=0.0950  η=69315.265  L_cut=12  SplitFed  T_loss=2.513  S_loss=1.799  CritL=177715184.0000  ActL=5079.8989
+  Ep  20 | Step   10 | G-Step   1910 |  R=-0.253  V_top=1.0085  η=0.526  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=0.820  CritL=184775973.8182  ActL=5212.5437
+  Ep  20 | Step   20 | G-Step   1920 |  R=-0.306  V_top=1.3265  η=0.536  L_cut=12  FALLBACK  T_loss=0.000  S_loss=1.330  CritL=188329896.7619  ActL=5237.5422
+  Ep  20 | Step   30 | G-Step   1930 |  R=-34657.633  V_top=1.3103  η=0.514  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=0.862  CritL=195858441.5484  ActL=5302.7810
+  Ep  20 | Step   40 | G-Step   1940 |  R=-0.274  V_top=1.3995  η=0.524  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=0.759  CritL=207969351.2195  ActL=5342.6196
+  Ep  20 | Step   50 | G-Step   1950 |  R=-0.278  V_top=1.4146  η=0.579  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.176  CritL=211311124.2353  ActL=5388.4564
+  Ep  20 | Step   60 | G-Step   1960 |  R=-0.285  V_top=1.3919  η=0.501  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.384  CritL=209445020.7213  ActL=5442.7701
+  Ep  20 | Step   70 | G-Step   1970 |  R=-0.290  V_top=1.4319  η=0.533  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.462  CritL=206225233.4648  ActL=5488.6463
+  Ep  20 | Step   80 | G-Step   1980 |  R=-0.258  V_top=1.4374  η=0.505  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=1.198  CritL=206540420.9383  ActL=5523.4398
+  Ep  20 | Step   90 | G-Step   1990 |  R=-0.261  V_top=1.4417  η=0.569  L_cut=12  FALLBACK  T_loss=0.000  S_loss=0.688  CritL=204599735.1209  ActL=5564.0312
+
+>>> Episode  20 done  |  Return=-207974.56  Avg10=-225303.44  Time=23.0s  Buffer=35356  Alive_nodes=20/20
+
+[Agent] Checkpoint saved → sac_clf_ep020.pt
+  Ep  21 | Step    0 | G-Step   2000 |  R=-0.257  V_top=0.0950  η=0.501  L_cut= 4  SplitFed  T_loss=1.966  S_loss=1.659  CritL=224200112.0000  ActL=5872.8496
+  Ep  21 | Step   10 | G-Step   2010 |  R=-0.253  V_top=1.0085  η=0.526  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.161  CritL=216595557.0909  ActL=5893.1384
+  Ep  21 | Step   20 | G-Step   2020 |  R=-0.305  V_top=1.3265  η=0.536  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.436  CritL=232609587.4286  ActL=5976.6589
+  Ep  21 | Step   30 | G-Step   2030 |  R=-34657.636  V_top=1.3103  η=0.514  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=0.659  CritL=232274858.8387  ActL=6067.8449
+  Ep  21 | Step   40 | G-Step   2040 |  R=-0.280  V_top=1.3995  η=0.524  L_cut=10  FALLBACK  T_loss=0.000  S_loss=0.594  CritL=228935597.0732  ActL=6138.4990
+  Ep  21 | Step   50 | G-Step   2050 |  R=-0.279  V_top=1.4146  η=0.579  L_cut=12  FALLBACK  T_loss=0.000  S_loss=1.029  CritL=228228386.0392  ActL=6194.3234
+  Ep  21 | Step   60 | G-Step   2060 |  R=-0.281  V_top=1.3919  η=0.501  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=0.570  CritL=229495890.4918  ActL=6239.4959
+  Ep  21 | Step   70 | G-Step   2070 |  R=-0.281  V_top=1.4319  η=0.533  L_cut= 8  FALLBACK  T_loss=0.000  S_loss=2.758  CritL=227926470.3099  ActL=6279.8060
+  Ep  21 | Step   80 | G-Step   2080 |  R=-0.258  V_top=1.4374  η=0.505  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=0.343  CritL=227639841.1852  ActL=6316.6365
+  Ep  21 | Step   90 | G-Step   2090 |  R=-0.262  V_top=1.4417  η=0.569  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=0.895  CritL=226759787.6044  ActL=6351.6487
+
+>>> Episode  21 done  |  Return=-242631.22  Avg10=-232234.62  Time=22.9s  Buffer=37356  Alive_nodes=20/20
+
+  Ep  22 | Step    0 | G-Step   2100 |  R=-0.256  V_top=0.0950  η=69315.265  L_cut= 1  SplitFed  T_loss=1.811  S_loss=2.071  CritL=203698848.0000  ActL=6485.3135
+  Ep  22 | Step   10 | G-Step   2110 |  R=-0.254  V_top=1.0085  η=0.526  L_cut=13  FALLBACK  T_loss=0.000  S_loss=0.633  CritL=224358327.2727  ActL=6779.8569
+  Ep  22 | Step   20 | G-Step   2120 |  R=-0.308  V_top=1.3265  η=0.536  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=0.719  CritL=242564984.3810  ActL=6808.5873
+  Ep  22 | Step   30 | G-Step   2130 |  R=-34657.633  V_top=1.3103  η=0.514  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.586  CritL=235243618.0645  ActL=6851.9450
+  Ep  22 | Step   40 | G-Step   2140 |  R=-0.273  V_top=1.3995  η=0.524  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=0.500  CritL=226655470.4390  ActL=6877.7282
+  Ep  22 | Step   50 | G-Step   2150 |  R=-0.278  V_top=1.4146  η=0.579  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.082  CritL=230325853.1765  ActL=6905.7145
+  Ep  22 | Step   60 | G-Step   2160 |  R=-0.281  V_top=1.3919  η=0.501  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=0.503  CritL=230617575.8689  ActL=6944.8889
+  Ep  22 | Step   70 | G-Step   2170 |  R=-0.283  V_top=1.4319  η=0.533  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=0.443  CritL=228408536.5634  ActL=6995.2809
+  Ep  22 | Step   80 | G-Step   2180 |  R=-0.258  V_top=1.4374  η=0.505  L_cut=12  FALLBACK  T_loss=0.000  S_loss=2.203  CritL=228405228.6420  ActL=7034.9105
+  Ep  22 | Step   90 | G-Step   2190 |  R=-0.262  V_top=1.4417  η=0.569  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=0.719  CritL=227422916.3956  ActL=7076.6343
+
+>>> Episode  22 done  |  Return=-242629.68  Avg10=-232234.34  Time=23.0s  Buffer=39356  Alive_nodes=20/20
+
+  Ep  23 | Step    0 | G-Step   2200 |  R=-0.255  V_top=0.0950  η=69315.265  L_cut= 9  SplitFed  T_loss=2.056  S_loss=2.062  CritL=168678240.0000  ActL=7674.8999
+  Ep  23 | Step   10 | G-Step   2210 |  R=-0.253  V_top=1.0085  η=0.526  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=1.147  CritL=202202826.1818  ActL=7764.6209
+  Ep  23 | Step   20 | G-Step   2220 |  R=-0.309  V_top=1.3265  η=0.536  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=0.633  CritL=214859107.0476  ActL=7751.8560
+  Ep  23 | Step   30 | G-Step   2230 |  R=-34657.634  V_top=1.3103  η=0.514  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=1.598  CritL=215282109.4194  ActL=7763.7230
+  Ep  23 | Step   40 | G-Step   2240 |  R=-0.274  V_top=1.3995  η=0.524  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=0.977  CritL=214489392.0000  ActL=7787.5255
+  Ep  23 | Step   50 | G-Step   2250 |  R=-0.278  V_top=1.4146  η=0.579  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=0.949  CritL=210722587.9216  ActL=7812.4202
+  Ep  23 | Step   60 | G-Step   2260 |  R=-0.281  V_top=1.3919  η=0.501  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=1.107  CritL=211913847.3443  ActL=7850.0184
+  Ep  23 | Step   70 | G-Step   2270 |  R=-0.282  V_top=1.4319  η=0.533  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=1.696  CritL=217564099.3803  ActL=7886.0088
+  Ep  23 | Step   80 | G-Step   2280 |  R=-0.258  V_top=1.4374  η=0.505  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.827  CritL=223364964.1481  ActL=7921.8759
+  Ep  23 | Step   90 | G-Step   2290 |  R=-0.262  V_top=1.4417  η=0.569  L_cut=10  FALLBACK  T_loss=0.000  S_loss=0.520  CritL=225655463.2088  ActL=7969.6120
+
+>>> Episode  23 done  |  Return=-242629.88  Avg10=-232234.14  Time=23.0s  Buffer=41356  Alive_nodes=20/20
+
+  Ep  24 | Step    0 | G-Step   2300 |  R=-0.255  V_top=0.0950  η=69315.265  L_cut=12  SplitFed  T_loss=1.312  S_loss=2.102  CritL=262830368.0000  ActL=7982.1118
+  Ep  24 | Step   10 | G-Step   2310 |  R=-0.256  V_top=1.0085  η=0.526  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.353  CritL=225754149.8182  ActL=8385.1526
+  Ep  24 | Step   20 | G-Step   2320 |  R=-0.305  V_top=1.3265  η=0.536  L_cut=10  FALLBACK  T_loss=0.000  S_loss=0.895  CritL=240812675.0476  ActL=8494.9134
+  Ep  24 | Step   30 | G-Step   2330 |  R=-34657.633  V_top=1.3103  η=0.514  L_cut=11  FALLBACK  T_loss=0.000  S_loss=1.506  CritL=231696412.3871  ActL=8609.2908
+  Ep  24 | Step   40 | G-Step   2340 |  R=-0.273  V_top=1.3995  η=0.524  L_cut= 8  FALLBACK  T_loss=0.000  S_loss=0.688  CritL=228433528.1951  ActL=8658.7583
+  Ep  24 | Step   50 | G-Step   2350 |  R=-0.277  V_top=1.4146  η=0.579  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.240  CritL=222927518.5882  ActL=8664.5152
+  Ep  24 | Step   60 | G-Step   2360 |  R=-0.282  V_top=1.3919  η=0.501  L_cut=13  FALLBACK  T_loss=0.000  S_loss=0.638  CritL=219616976.3934  ActL=8686.4803
+  Ep  24 | Step   70 | G-Step   2370 |  R=-0.283  V_top=1.4319  η=0.533  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=1.480  CritL=221554791.3239  ActL=8684.6291
+  Ep  24 | Step   80 | G-Step   2380 |  R=-0.257  V_top=1.4374  η=0.505  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.249  CritL=222859914.5679  ActL=8707.3958
+  Ep  24 | Step   90 | G-Step   2390 |  R=-0.262  V_top=1.4417  η=0.569  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=0.663  CritL=222279672.1758  ActL=8762.7256
+
+>>> Episode  24 done  |  Return=-207972.78  Avg10=-235699.70  Time=22.7s  Buffer=43356  Alive_nodes=20/20
+
+  Ep  25 | Step    0 | G-Step   2400 |  R=-0.256  V_top=0.0950  η=69315.265  L_cut= 8  SplitFed  T_loss=1.352  S_loss=1.778  CritL=216663344.0000  ActL=9566.4551
+  Ep  25 | Step   10 | G-Step   2410 |  R=-0.253  V_top=1.0085  η=0.526  L_cut=10  FALLBACK  T_loss=0.000  S_loss=0.768  CritL=200935797.8182  ActL=9573.9130
+  Ep  25 | Step   20 | G-Step   2420 |  R=-0.306  V_top=1.3265  η=0.536  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=2.525  CritL=210882885.3333  ActL=9589.1609
+  Ep  25 | Step   30 | G-Step   2430 |  R=-34657.633  V_top=1.3103  η=0.514  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=0.222  CritL=203146973.6774  ActL=9607.5986
+  Ep  25 | Step   40 | G-Step   2440 |  R=-0.274  V_top=1.3995  η=0.524  L_cut=11  FALLBACK  T_loss=0.000  S_loss=0.636  CritL=206174482.1463  ActL=9628.2336
+  Ep  25 | Step   50 | G-Step   2450 |  R=-0.277  V_top=1.4146  η=0.579  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.384  CritL=210161627.7647  ActL=9668.3758
+  Ep  25 | Step   60 | G-Step   2460 |  R=-0.282  V_top=1.3919  η=0.501  L_cut=10  FALLBACK  T_loss=0.000  S_loss=0.568  CritL=214526783.3443  ActL=9678.1106
+  Ep  25 | Step   70 | G-Step   2470 |  R=-0.285  V_top=1.4319  η=0.533  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=0.974  CritL=217785898.2535  ActL=9700.3470
+  Ep  25 | Step   80 | G-Step   2480 |  R=-0.258  V_top=1.4374  η=0.505  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=1.033  CritL=218881142.2222  ActL=9728.7386
+  Ep  25 | Step   90 | G-Step   2490 |  R=-0.562  V_top=1.4417  η=0.569  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.153  CritL=219489824.7912  ActL=9766.0017
+
+>>> Episode  25 done  |  Return=-242630.42  Avg10=-235699.49  Time=22.5s  Buffer=45356  Alive_nodes=20/20
+
+[Agent] Checkpoint saved → sac_clf_ep025.pt
+  Ep  26 | Step    0 | G-Step   2500 |  R=-0.255  V_top=0.0950  η=69315.265  L_cut=12  SplitFed  T_loss=1.820  S_loss=2.841  CritL=302355328.0000  ActL=10223.5703
+  Ep  26 | Step   10 | G-Step   2510 |  R=-0.257  V_top=1.0085  η=0.526  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.504  CritL=259169403.6364  ActL=10237.6442
+  Ep  26 | Step   20 | G-Step   2520 |  R=-0.309  V_top=1.3265  η=0.536  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=0.744  CritL=251263145.1429  ActL=10399.9993
+  Ep  26 | Step   30 | G-Step   2530 |  R=-34657.633  V_top=1.3103  η=0.514  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=0.576  CritL=250175238.7097  ActL=10503.8151
+  Ep  26 | Step   40 | G-Step   2540 |  R=-0.274  V_top=1.3995  η=0.524  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=1.534  CritL=249728412.4878  ActL=10624.4550
+  Ep  26 | Step   50 | G-Step   2550 |  R=-0.278  V_top=1.4146  η=0.579  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=0.295  CritL=249261349.9608  ActL=10736.8366
+  Ep  26 | Step   60 | G-Step   2560 |  R=-0.281  V_top=1.3919  η=0.501  L_cut= 6  FALLBACK  T_loss=0.000  S_loss=0.382  CritL=250808445.9016  ActL=10814.1241
+  Ep  26 | Step   70 | G-Step   2570 |  R=-0.281  V_top=1.4319  η=0.533  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=0.545  CritL=254538505.4648  ActL=10912.0662
+  Ep  26 | Step   80 | G-Step   2580 |  R=-0.258  V_top=1.4374  η=0.505  L_cut=13  FALLBACK  T_loss=0.000  S_loss=1.643  CritL=251612458.8642  ActL=11030.6369
+  Ep  26 | Step   90 | G-Step   2590 |  R=-0.562  V_top=1.4417  η=0.569  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.386  CritL=251037994.5495  ActL=11148.0791
+
+>>> Episode  26 done  |  Return=-277288.15  Avg10=-239165.03  Time=22.5s  Buffer=47356  Alive_nodes=20/20
+
+  Ep  27 | Step    0 | G-Step   2600 |  R=-0.255  V_top=0.0950  η=69315.265  L_cut= 1  SplitFed  T_loss=2.498  S_loss=1.121  CritL=292792896.0000  ActL=12554.5879
+  Ep  27 | Step   10 | G-Step   2610 |  R=-0.254  V_top=1.0085  η=0.526  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.680  CritL=271157490.9091  ActL=12462.4346
+  Ep  27 | Step   20 | G-Step   2620 |  R=-0.305  V_top=1.3265  η=0.536  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=0.820  CritL=259614849.5238  ActL=12509.4430
+  Ep  27 | Step   30 | G-Step   2630 |  R=-34657.633  V_top=1.3103  η=0.514  L_cut= 5  FALLBACK  T_loss=0.000  S_loss=0.754  CritL=260278373.6774  ActL=12563.0969
+  Ep  27 | Step   40 | G-Step   2640 |  R=-0.273  V_top=1.3995  η=0.524  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=0.990  CritL=248283472.5854  ActL=12591.0322
+  Ep  27 | Step   50 | G-Step   2650 |  R=-0.277  V_top=1.4146  η=0.579  L_cut=10  FALLBACK  T_loss=0.000  S_loss=0.689  CritL=248272516.8627  ActL=12655.3071
+  Ep  27 | Step   60 | G-Step   2660 |  R=-0.282  V_top=1.3919  η=0.501  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.412  CritL=246629213.7705  ActL=12718.3315
+  Ep  27 | Step   70 | G-Step   2670 |  R=-0.282  V_top=1.4319  η=0.533  L_cut=10  FALLBACK  T_loss=0.000  S_loss=0.725  CritL=247468036.1690  ActL=12797.3325
+  Ep  27 | Step   80 | G-Step   2680 |  R=-0.258  V_top=1.4374  η=0.505  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=0.956  CritL=247183284.6420  ActL=12861.5472
+  Ep  27 | Step   90 | G-Step   2690 |  R=-0.262  V_top=1.4417  η=0.569  L_cut=10  FALLBACK  T_loss=0.000  S_loss=0.884  CritL=243640994.1978  ActL=12928.8479
+
+>>> Episode  27 done  |  Return=-207973.40  Avg10=-235699.31  Time=22.5s  Buffer=49356  Alive_nodes=20/20
+
+  Ep  28 | Step    0 | G-Step   2700 |  R=-0.255  V_top=0.0950  η=69315.265  L_cut= 2  SplitFed  T_loss=1.703  S_loss=1.686  CritL=120549560.0000  ActL=13164.5508
+  Ep  28 | Step   10 | G-Step   2710 |  R=-0.253  V_top=1.0085  η=0.526  L_cut=13  FALLBACK  T_loss=0.000  S_loss=1.160  CritL=241655200.7273  ActL=13506.2619
+  Ep  28 | Step   20 | G-Step   2720 |  R=-0.305  V_top=1.3265  η=0.536  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.054  CritL=241034359.2381  ActL=13597.7148
+  Ep  28 | Step   30 | G-Step   2730 |  R=-34657.633  V_top=1.3103  η=0.514  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.225  CritL=237372714.0645  ActL=13615.2372
+  Ep  28 | Step   40 | G-Step   2740 |  R=-0.273  V_top=1.3995  η=0.524  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.239  CritL=232036473.1707  ActL=13602.7367
+  Ep  28 | Step   50 | G-Step   2750 |  R=-0.278  V_top=1.4146  η=0.579  L_cut= 8  FALLBACK  T_loss=0.000  S_loss=0.472  CritL=236336422.4314  ActL=13636.8877
+  Ep  28 | Step   60 | G-Step   2760 |  R=-0.281  V_top=1.3919  η=0.501  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.072  CritL=238419123.0164  ActL=13685.0530
+  Ep  28 | Step   70 | G-Step   2770 |  R=-0.282  V_top=1.4319  η=0.533  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.250  CritL=240132474.9296  ActL=13746.2612
+  Ep  28 | Step   80 | G-Step   2780 |  R=-0.257  V_top=1.4374  η=0.505  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.061  CritL=239654084.8395  ActL=13810.6780
+  Ep  28 | Step   90 | G-Step   2790 |  R=-0.262  V_top=1.4417  η=0.569  L_cut=13  FALLBACK  T_loss=0.000  S_loss=0.803  CritL=238871838.3297  ActL=13885.9857
+
+>>> Episode  28 done  |  Return=-207973.47  Avg10=-235699.29  Time=22.7s  Buffer=50000  Alive_nodes=20/20
+
+  Ep  29 | Step    0 | G-Step   2800 |  R=-0.255  V_top=0.0950  η=69315.265  L_cut= 9  SplitFed  T_loss=2.174  S_loss=1.903  CritL=154220192.0000  ActL=13921.1777
+  Ep  29 | Step   10 | G-Step   2810 |  R=-0.253  V_top=1.0085  η=0.526  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.362  CritL=294929623.2727  ActL=14422.9458
+  Ep  29 | Step   20 | G-Step   2820 |  R=-0.305  V_top=1.3265  η=0.536  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=0.137  CritL=264109529.1429  ActL=14494.5919
+  Ep  29 | Step   30 | G-Step   2830 |  R=-34657.632  V_top=1.3103  η=0.514  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=0.289  CritL=266492520.7742  ActL=14538.5516
+  Ep  29 | Step   40 | G-Step   2840 |  R=-0.273  V_top=1.3995  η=0.524  L_cut= 1  FALLBACK  T_loss=0.000  S_loss=1.417  CritL=259270045.6585  ActL=14593.2274
+  Ep  29 | Step   50 | G-Step   2850 |  R=-0.277  V_top=1.4146  η=0.579  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=0.869  CritL=254079077.6471  ActL=14628.5906
+  Ep  29 | Step   60 | G-Step   2860 |  R=-0.282  V_top=1.3919  η=0.501  L_cut=10  FALLBACK  T_loss=0.000  S_loss=1.130  CritL=260228329.1803  ActL=14702.9874
+  Ep  29 | Step   70 | G-Step   2870 |  R=-0.281  V_top=1.4319  η=0.533  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=1.422  CritL=260327685.6338  ActL=14742.7639
+  Ep  29 | Step   80 | G-Step   2880 |  R=-0.258  V_top=1.4374  η=0.505  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=0.598  CritL=259046474.8642  ActL=14753.2082
+  Ep  29 | Step   90 | G-Step   2890 |  R=-0.263  V_top=1.4417  η=0.569  L_cut= 4  FALLBACK  T_loss=0.000  S_loss=1.396  CritL=259792556.4835  ActL=14819.9331
+
+>>> Episode  29 done  |  Return=-242629.61  Avg10=-232233.32  Time=22.6s  Buffer=50000  Alive_nodes=20/20
+
+  Ep  30 | Step    0 | G-Step   2900 |  R=-0.256  V_top=0.0950  η=69315.265  L_cut= 1  SplitFed  T_loss=3.029  S_loss=2.202  CritL=240312944.0000  ActL=15711.9219
+  Ep  30 | Step   10 | G-Step   2910 |  R=-0.253  V_top=1.0085  η=0.526  L_cut=11  FALLBACK  T_loss=0.000  S_loss=0.593  CritL=256357381.8182  ActL=15651.3661
+  Ep  30 | Step   20 | G-Step   2920 |  R=-0.306  V_top=1.3265  η=0.536  L_cut=12  FALLBACK  T_loss=0.000  S_loss=0.677  CritL=252016585.9048  ActL=15774.0376
+  Ep  30 | Step   30 | G-Step   2930 |  R=-34657.633  V_top=1.3103  η=0.514  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=0.951  CritL=261762802.5806  ActL=15860.0657
+  Ep  30 | Step   40 | G-Step   2940 |  R=-0.273  V_top=1.3995  η=0.524  L_cut= 9  FALLBACK  T_loss=0.000  S_loss=1.519  CritL=264140865.1707  ActL=15896.6376
+  Ep  30 | Step   50 | G-Step   2950 |  R=-0.278  V_top=1.4146  η=0.579  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.253  CritL=262440698.3529  ActL=15960.0241
+  Ep  30 | Step   60 | G-Step   2960 |  R=-0.281  V_top=1.3919  η=0.501  L_cut= 2  FALLBACK  T_loss=0.000  S_loss=1.444  CritL=261761338.2295  ActL=15998.3943
+  Ep  30 | Step   70 | G-Step   2970 |  R=-0.283  V_top=1.4319  η=0.533  L_cut=13  FALLBACK  T_loss=0.000  S_loss=1.104  CritL=266433644.6197  ActL=15992.3663
+  Ep  30 | Step   80 | G-Step   2980 |  R=-0.257  V_top=1.4374  η=0.505  L_cut= 7  FALLBACK  T_loss=0.000  S_loss=1.981  CritL=263651647.6049  ActL=16020.4945
+  Ep  30 | Step   90 | G-Step   2990 |  R=-0.263  V_top=1.4417  η=0.569  L_cut= 3  FALLBACK  T_loss=0.000  S_loss=0.799  CritL=262458176.5275  ActL=16025.8707
+
+>>> Episode  30 done  |  Return=-242629.91  Avg10=-235698.85  Time=22.5s  Buffer=50000  Alive_nodes=20/20
+
+[Agent] Checkpoint saved → sac_clf_ep030.pt
+
+=================================================================
+  Training complete.
+  Final avg return (last 10 episodes): -235698.851
+=================================================================
